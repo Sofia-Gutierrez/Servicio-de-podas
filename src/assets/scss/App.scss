@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+
+body::-webkit-scrollbar {
+    width: 0em;
+}
+
+a {
+    all: unset;
+}
+
+:root {
+    --cyan: #D8E2DC;
+    --cyan05: #d8e2dc8c;
+}
+
+
+
