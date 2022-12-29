@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sofia-Gutierrez-portfolio/static/css/main.702ef807.css",
-    "main.js": "/Sofia-Gutierrez-portfolio/static/js/main.84702dcc.js",
+    "main.js": "/Sofia-Gutierrez-portfolio/static/js/main.3895ad32.js",
     "static/media/workspace.jpg": "/Sofia-Gutierrez-portfolio/static/media/workspace.049daedc4ce18d1042ac.jpg",
     "static/media/MySQL.png": "/Sofia-Gutierrez-portfolio/static/media/MySQL.167c88550478e6f0f85c.png",
     "static/media/medellinTravel.jpg": "/Sofia-Gutierrez-portfolio/static/media/medellinTravel.ad8481bdec4b01edca6f.jpg",
@@ -17,10 +17,10 @@
     "static/media/css.png": "/Sofia-Gutierrez-portfolio/static/media/css.286a9900f844f7c0ed5f.png",
     "index.html": "/Sofia-Gutierrez-portfolio/index.html",
     "main.702ef807.css.map": "/Sofia-Gutierrez-portfolio/static/css/main.702ef807.css.map",
-    "main.84702dcc.js.map": "/Sofia-Gutierrez-portfolio/static/js/main.84702dcc.js.map"
+    "main.3895ad32.js.map": "/Sofia-Gutierrez-portfolio/static/js/main.3895ad32.js.map"
   },
   "entrypoints": [
     "static/css/main.702ef807.css",
-    "static/js/main.84702dcc.js"
+    "static/js/main.3895ad32.js"
   ]
 }
