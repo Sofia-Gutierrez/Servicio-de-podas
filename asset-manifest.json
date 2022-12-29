@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Sofia-Gutierrez-portfolio/static/css/main.702ef807.css",
+    "main.js": "/Sofia-Gutierrez-portfolio/static/js/main.84702dcc.js",
+    "static/media/workspace.jpg": "/Sofia-Gutierrez-portfolio/static/media/workspace.049daedc4ce18d1042ac.jpg",
+    "static/media/MySQL.png": "/Sofia-Gutierrez-portfolio/static/media/MySQL.167c88550478e6f0f85c.png",
+    "static/media/medellinTravel.jpg": "/Sofia-Gutierrez-portfolio/static/media/medellinTravel.ad8481bdec4b01edca6f.jpg",
+    "static/media/laptop.jpg": "/Sofia-Gutierrez-portfolio/static/media/laptop.5f41c48b9a4d308682e6.jpg",
+    "static/media/museum.jpg": "/Sofia-Gutierrez-portfolio/static/media/museum.37e25c106fa4a5e16733.jpg",
+    "static/media/mercadoLiebre.jpg": "/Sofia-Gutierrez-portfolio/static/media/mercadoLiebre.a23ebc24bb487c298279.jpg",
+    "static/media/sass.png": "/Sofia-Gutierrez-portfolio/static/media/sass.58e61bc991e55a95072b.png",
+    "static/media/git.png": "/Sofia-Gutierrez-portfolio/static/media/git.ba57b0e0a8e0600a63e3.png",
+    "static/media/html.png": "/Sofia-Gutierrez-portfolio/static/media/html.1d7b133e22ffe4829da6.png",
+    "static/media/Node.png": "/Sofia-Gutierrez-portfolio/static/media/Node.7b0f4700ed6ce39afdff.png",
+    "static/media/Javascript.png": "/Sofia-Gutierrez-portfolio/static/media/Javascript.cf7522f436d6510da302.png",
+    "static/media/react.png": "/Sofia-Gutierrez-portfolio/static/media/react.367a8df5ba9c7a95160e.png",
+    "static/media/css.png": "/Sofia-Gutierrez-portfolio/static/media/css.286a9900f844f7c0ed5f.png",
+    "index.html": "/Sofia-Gutierrez-portfolio/index.html",
+    "main.702ef807.css.map": "/Sofia-Gutierrez-portfolio/static/css/main.702ef807.css.map",
+    "main.84702dcc.js.map": "/Sofia-Gutierrez-portfolio/static/js/main.84702dcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.702ef807.css",
+    "static/js/main.84702dcc.js"
+  ]
+}
