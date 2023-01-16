@@ -29,17 +29,20 @@
     color: white;
 }
 
+.nav-li {
+    margin: 5px 0;
+}
 
 /* Links Hover */
 
 .link {
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     color: white;
     position: relative;
     transition: all 0.5s;
     z-index: 1;
-    padding: 6px;
+    padding: 10px;
 }
 
 .link::before {
@@ -122,7 +125,7 @@
 @media (min-width: 768px) {
 
     .nav {
-        font-size: 16px;
+        font-size: 18px;
         box-shadow: 0px 1px 25px 1px rgb(18, 22, 25);
     }
 
