@@ -1,7 +1,7 @@
 import "../assets/scss/Navbar.scss"
 import useAos from "../hooks/useAos";
 import { Link } from "react-scroll";
-import logo from "../assets/img/logo.jpg"
+import logo from "../assets/img/png/logo.jpg"
 
 const Navbar = () => {
 

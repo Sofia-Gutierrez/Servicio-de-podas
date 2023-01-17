@@ -1,8 +1,6 @@
 import "../assets/scss/Home.scss"
-import image1 from "../assets/img/img5.jpeg";
-import image2 from "../assets/img/img4.jpeg";
-import image3 from "../assets/img/img7.jpeg";
-import wsp from "../assets/img/wsp.png";
+import postcard from "../assets/img/services/postcard.jpg";
+import wsp from "../assets/img/png/wsp.png";
 
 
 const Home = () => {
@@ -15,24 +13,10 @@ const Home = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <img src={image1} className="d-block w-100 carousel-img" alt="..." />
+                <img src={postcard} className="d-block w-100 carousel-img" alt="..." />
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Podas en altura</h5>
                     <p>Se realizan podas de altura, con grúa, herramientas y seguridad.</p>
-                </div>
-                </div>
-                <div className="carousel-item">
-                <img src={image2} className="d-block w-100 carousel-img" alt="..." />
-                <div className="carousel-caption d-none d-md-block">
-                    <h5>Movimiento con hidrogrua</h5>
-                    <p>Se realizan podas de altura con grua y seguridad</p>
-                </div>
-                </div>
-                <div className="carousel-item">
-                <img src={image3} className="d-block w-100 carousel-img" alt="..." />
-                <div className="carousel-caption d-none d-md-block">
-                    <h5>Extracción de raíz</h5>
-                    <p>Se realiza la extraccíon de raíz del arbol</p>
                 </div>
                 </div>
             </div>

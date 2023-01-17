@@ -131,8 +131,13 @@
 
 @media (min-width: 1920px) {
 
-    .services-display {
-        height: 100vh;
+    
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        width: auto;
+        margin: 10px 10%;
     }
 
     .sv-title {

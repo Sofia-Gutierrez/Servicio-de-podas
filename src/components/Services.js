@@ -1,40 +1,54 @@
 import "../assets/scss/Services.scss";
-import img1 from "../assets/img/img1.jpeg";
-import img6 from "../assets/img/img6.jpeg";
-import img3 from "../assets/img/img3.jpeg";
-import img8 from "../assets/img/img8.jpg";
+import batea from "../assets/img/services/batea.jpg";
+import hydroCrane from "../assets/img/services/hydroCrane.jpg";
+import chipper from "../assets/img/services/chipper.jpg";
+import crane from "../assets/img/services/crane.jpg";
+import roots from "../assets/img/services/roots.jpg";
+import branches from "../assets/img/services/branches.jpg";
+import letters from "../assets/img/services/letters.jpg";
+import celling from "../assets/img/services/celling.jpg";
 import Service from "./Service";
 
 const contentService = [
     {
-        img: img3,
+        img: crane,
         title: "Poda de Altura",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+        detail: "Se realizan podas de arboles en altura con grúa"
     },
     {
-        img: img8,
+        img: branches,
         title: "Retiro de ramas",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+        detail: "Se retiran ramas"
     },
     {
-        img: img1,
+        img: hydroCrane,
         title: "Movimiento con hidrogrua",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+        detail: "Se realizan transportes de maquinarias, bateas, carrocerias, etc..."
     },
     {
-        img: img6,
+        img: roots,
         title: "Extracción de raíz",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+        detail: "Se realiza extrancción de raíz del arbol"
     },
     {
-        img: img6,
+        img: chipper,
         title: "Chipeo de ramas",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+        detail: "Se realiza chipeo de ramas"
     },
     {
-        img: img6,
+        img: batea,
         title: "Servicio de batea",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+        detail: "Alquiler de batea"
+    }, 
+    {
+        img: letters,
+        title: "Colocación de carteleria",
+        detail: "Se realiza la colocación de carteles"
+    },
+    {
+        img: celling,
+        title: "Armado de tinglado",
+        detail: "Se presta el servicio para armar un tinglado"
     }
 ]
 

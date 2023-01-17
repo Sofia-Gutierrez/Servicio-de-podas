@@ -1,6 +1,6 @@
 import "../assets/scss/Footer.scss";
-import wsp from "../assets/img/wsp.png";
-import gmail from "../assets/img/gmail.png";
+import wsp from "../assets/img/png/wsp.png";
+import gmail from "../assets/img/png/gmail.png";
 import { Link } from "react-scroll";
 
 
