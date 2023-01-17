@@ -1,6 +1,7 @@
 import "../assets/scss/Navbar.scss"
 import useAos from "../hooks/useAos";
 import { Link } from "react-scroll";
+import logo from "../assets/img/logo.jpg"
 
 const Navbar = () => {
 
@@ -22,7 +23,7 @@ const Navbar = () => {
                     <span></span>
                 </div>
                 <div className="nav-content" id="nav-content">
-                <div className="nav-logo">LOGO</div>
+                <div className="nav-container-logo"><img src={logo} alt="" className="nav-logo" /></div>
                     <ul className="nav-links">
                         <li className="nav-li active"><Link className="link" to="home" spy={true} smooth={true} offset={-50} duration={500}>Inicio</Link></li>
                         <li className="nav-li"><Link className="link" to="services" spy={true} smooth={true} offset={-50} duration={500}>Servicios</Link></li>
