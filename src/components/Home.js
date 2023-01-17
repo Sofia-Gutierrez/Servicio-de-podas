@@ -16,7 +16,18 @@ const Home = () => {
                 <img src={postcard} className="d-block w-100 carousel-img" alt="..." />
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Podas en altura</h5>
-                    <p>Se realizan podas de altura, con grúa, herramientas y seguridad.</p>
+                </div>
+                </div>
+                <div className="carousel-item">
+                <img src={postcard} className="d-block w-100 carousel-img" alt="..." />
+                <div className="carousel-caption d-none d-md-block">
+                    <h5>Extracción de raíz</h5>
+                </div>
+                </div>
+                <div className="carousel-item">
+                <img src={postcard} className="d-block w-100 carousel-img" alt="..." />
+                <div className="carousel-caption d-none d-md-block">
+                    <h5>Movimiento con hidrogrua</h5>
                 </div>
                 </div>
             </div>
