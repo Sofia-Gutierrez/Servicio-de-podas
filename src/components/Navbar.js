@@ -1,9 +1,12 @@
 import "../assets/scss/Navbar.scss"
-import useAos from "../hooks/useAos";
 import { Link } from "react-scroll";
 import logo from "../assets/img/png/logo.jpg"
+import useObserver from "../hooks/useObserver";
+
 
 const Navbar = () => {
+
+    const [containerRef, isVisible] = useObserver();
 
     const handleClickBtn = () => {
         const btn = document.getElementById("nav-btn");
@@ -13,10 +16,8 @@ const Navbar = () => {
         navContent.classList.toggle("open");
     }
 
-    useAos();
-
         return(
-            <nav className="nav" data-aos="fade-down"> 
+            <nav className="nav" id={isVisible ? "show-down" : "hidden-down"} ref={containerRef}> 
                 <div id="nav-btn" onClick={handleClickBtn}>
                     <span></span>
                     <span></span>

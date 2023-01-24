@@ -1,4 +1,5 @@
 import "./assets/scss/App.scss"
+import "./assets/scss/ObserverAnimations.scss"
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Services from "./components/Services";
