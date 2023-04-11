@@ -7,15 +7,15 @@ const useObserver = () => {
     const [ isVisible, setIsVisible ] = useState(false);
 
     const callbackFunction = (entries) => {
-        const [ entry ]= entries
+        const [ entry ] = entries
         setIsVisible(entry.isIntersecting)
-    }
+    };
 
     const [options] = useState({  
         root: null,
         rootMargin: "200px",
         threshold: 0.5
-    })
+    });
 
     useEffect(() => {
 

@@ -1,11 +1,7 @@
-import useObserver from "../hooks/useObserver";
-
 const Service = ({img, title, detail}) => {
 
-    const [containerRef, isVisible] = useObserver();
-
     return(
-        <div className="service" id={isVisible ? "show-right" : "hidden-right"} ref={containerRef}>
+        <div className="service">
             <img src={img} alt="" className="service-img"/>
             <div className="service-detail">
                 <h4 className="sv-title">{title}</h4>
